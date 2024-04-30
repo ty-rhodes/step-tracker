@@ -14,6 +14,7 @@
 		7751BEFF2BD9C24D007814BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7751BEFE2BD9C24D007814BE /* Preview Assets.xcassets */; };
 		77ED39E02BDC1B72005B6D27 /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ED39DF2BDC1B72005B6D27 /* HealthKitPermissionPrimingView.swift */; };
 		77ED39E32BDC2270005B6D27 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ED39E22BDC2270005B6D27 /* HealthKitManager.swift */; };
+		77ED39FF2BE1A65C005B6D27 /* HealthMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ED39FE2BE1A65C005B6D27 /* HealthMetric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		77ED39DF2BDC1B72005B6D27 /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
 		77ED39E12BDC20DA005B6D27 /* Step Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Step Tracker.entitlements"; sourceTree = "<group>"; };
 		77ED39E22BDC2270005B6D27 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		77ED39FE2BE1A65C005B6D27 /* HealthMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				772B8C762BDB11D400C905AD /* HealthDataListView.swift */,
 				77ED39DF2BDC1B72005B6D27 /* HealthKitPermissionPrimingView.swift */,
 				77ED39E22BDC2270005B6D27 /* HealthKitManager.swift */,
+				77ED39FE2BE1A65C005B6D27 /* HealthMetric.swift */,
 				7751BEFB2BD9C24D007814BE /* Assets.xcassets */,
 				7751BEFD2BD9C24D007814BE /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				7751BEF82BD9C24C007814BE /* Step_TrackerApp.swift in Sources */,
 				77ED39E32BDC2270005B6D27 /* HealthKitManager.swift in Sources */,
 				77ED39E02BDC1B72005B6D27 /* HealthKitPermissionPrimingView.swift in Sources */,
+				77ED39FF2BE1A65C005B6D27 /* HealthMetric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
