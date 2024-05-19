@@ -68,7 +68,7 @@ import Observation
 //    func addSimulatorData() async {
 //        var mockSamples: [HKQuantitySample] = []
 //        
-//        for i in 0..<28 {
+//        for i in 0..<20 {
 //            let stepQuantity = HKQuantity(unit: .count(), doubleValue: .random(in: 4000...20000))
 //            let WeightQuantity = HKQuantity(unit: .pound(), doubleValue: .random(in: (160 + Double(i/3)...165 + Double(i/3))))
 //            
