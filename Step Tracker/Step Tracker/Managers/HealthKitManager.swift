@@ -138,7 +138,7 @@ enum STError: Error {
         case .notDetermined:
             throw STError.authNotDetermined
         case .sharingDenied:
-            throw STError.sharingDenied(quantityType: "step count")
+            throw STError.sharingDenied(quantityType: "weight")
         case .sharingAuthorized:
             break
         @unknown default:
