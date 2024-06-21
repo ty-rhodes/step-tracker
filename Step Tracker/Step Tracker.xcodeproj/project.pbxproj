@@ -124,9 +124,9 @@
 				77ED3A002BE50F77005B6D27 /* StepBarChart.swift */,
 				77ED3A102BE6C9B8005B6D27 /* StepPieChart.swift */,
 				771F0D122BF7DBA600BAC4BE /* WeightLineChart.swift */,
+				77BF6FE62C0543D70049298E /* WeightDiffBarChart.swift */,
 				77ED3A062BE5447F005B6D27 /* ChartMath.swift */,
 				77ED3A082BE544C3005B6D27 /* ChartDataTypes.swift */,
-				77BF6FE62C0543D70049298E /* WeightDiffBarChart.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
