@@ -28,26 +28,7 @@ struct WeightLineChart: View {
     }
     
     var body: some View {
-        VStack {
-            NavigationLink(value: selectedStat) {
-                HStack {
-                    VStack {
-                        Label("Weight", systemImage: "figure")
-                            .font(.title3.bold())
-                            .foregroundStyle(.indigo)
-                        
-                        Text("Avg: 180 lbs")
-                            .font(.caption)
-                    }
-                    
-                    Spacer()
-                    
-                    Image(systemName: "chevron.right")
-                }
-            }
-            .foregroundStyle(.secondary)
-            .padding(.bottom, 12)
-            
+        ChartContainer(title: "Weight", symbol: "figure", subtitle: "Avg: 180 lbs", context: .weight, isNav: true) {
             if chartData.isEmpty {
                 ChartEmptyView(systemImageName: "chart.line.downtrend.xy", title: "No Data", description: "There is no weight data from the Health App")
             } else {
@@ -99,8 +80,6 @@ struct WeightLineChart: View {
                 }
             }
         }
-        .padding()
-        .background(RoundedRectangle(cornerRadius: 12).fill(Color(.secondarySystemBackground)))
         .sensoryFeedback(.selection, trigger: selectedDay)
         .onChange(of: rawSelectedDate) { oldValue, newValue in
             if oldValue?.weekdayInt != newValue?.weekdayInt {
