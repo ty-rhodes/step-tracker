@@ -10,6 +10,7 @@
 		771F0D132BF7DBA600BAC4BE /* WeightLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F0D122BF7DBA600BAC4BE /* WeightLineChart.swift */; };
 		771F0D162BF7DD4B00BAC4BE /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F0D152BF7DD4B00BAC4BE /* MockData.swift */; };
 		772B8C772BDB11D400C905AD /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B8C762BDB11D400C905AD /* HealthDataListView.swift */; };
+		773B28AF2C41A38600932C92 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B28AE2C41A38600932C92 /* Array+Ext.swift */; };
 		7751BEF82BD9C24C007814BE /* Step_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7751BEF72BD9C24C007814BE /* Step_TrackerApp.swift */; };
 		7751BEFA2BD9C24C007814BE /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7751BEF92BD9C24C007814BE /* DashboardView.swift */; };
 		7751BEFC2BD9C24D007814BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7751BEFB2BD9C24D007814BE /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		771F0D122BF7DBA600BAC4BE /* WeightLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLineChart.swift; sourceTree = "<group>"; };
 		771F0D152BF7DD4B00BAC4BE /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		772B8C762BDB11D400C905AD /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
+		773B28AE2C41A38600932C92 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
 		7751BEF42BD9C24C007814BE /* Step Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7751BEF72BD9C24C007814BE /* Step_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_TrackerApp.swift; sourceTree = "<group>"; };
 		7751BEF92BD9C24C007814BE /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				77ED3A0B2BE545AD005B6D27 /* Date+Ext.swift */,
+				773B28AE2C41A38600932C92 /* Array+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				77ED39FF2BE1A65C005B6D27 /* HealthMetric.swift in Sources */,
 				77ED3A092BE544C3005B6D27 /* ChartDataTypes.swift in Sources */,
 				77ED3A112BE6C9B8005B6D27 /* StepPieChart.swift in Sources */,
+				773B28AF2C41A38600932C92 /* Array+Ext.swift in Sources */,
 				771F0D132BF7DBA600BAC4BE /* WeightLineChart.swift in Sources */,
 				77ED3A0C2BE545AD005B6D27 /* Date+Ext.swift in Sources */,
 			);
